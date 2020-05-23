@@ -1,0 +1,1590 @@
+* {
+	margin: 0;
+  	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+html,body{
+	width: 100%;
+	height: auto;
+} 
+
+/*** NAVBAR ***/
+
+.active-link{
+	color: #3498db !important;
+}
+
+.navbar-brand{
+      color: #3498db !important;
+}
+
+.navbar {
+    transition: all 0.4s;
+	background: #fff;
+}
+
+.navbar .nav-link {
+	color: #555;
+	letter-spacing: 2px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.nav-item{
+	padding-right: 10px;
+}
+
+.btn-nav a{
+	background-color: #3498db;
+	color: white;
+	padding: 15px 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-decoration: none;
+	border: 2px solid #3498db;
+	border-radius: 50px;
+}
+
+.btn-nav a:hover{
+	background-color: transparent;
+	color: #3498db;
+	text-decoration: none;
+	border: 2px solid #3498db;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+#hero{
+	background-image: url(..//images/hero.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.bg-hero{
+	width: 100%;
+	min-height: inherit;
+	background: rgba(74,160,219,0.7);
+}
+
+.text-hero{
+	padding-top: 39vh;
+	text-align: center;
+}
+
+.text-hero h1{
+	text-transform: uppercase;
+	font-family: 'Mallanna', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 80px;
+
+}
+
+.text-hero h3{
+	color: white;
+	font-weight: 600;
+	letter-spacing: 3px;
+	padding: 15px 0;
+	text-transform: uppercase;
+}
+
+.btn-hero{
+	margin: 40px 0;
+}
+
+.btn-hero a{
+	background: white;
+	padding: 15px 45px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	border: 2px solid white;
+	color: #3498db;
+	border-radius: 50px;
+}
+
+.btn-hero a:hover{
+	background: transparent;
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+}
+
+/*** SERVICES ***/
+
+#services{
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+	background-color: #f7f7f7;
+}
+
+.text-services{
+	text-align: center;
+}
+
+.text-services h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.text-services hr{
+	height: 2px;
+	width: 150px;
+	background-color: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.text-services p{
+	font-size: 20px;
+	color: #6f6f6f;
+	padding: 15px 0;
+}
+
+.box-services{
+	width: 100%;
+	min-height: 500px;
+	margin: 20px 0;
+}
+
+.img-service{
+	width: 100%;
+	min-height: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-service-one{
+	box-shadow: -5px 5px 5px #3498db;
+}
+
+.img-service-two{
+	box-shadow: 5px 5px 5px #3498db;
+}
+
+.img-service-three{
+	box-shadow: -5px 5px 5px #3498db;
+}
+
+.text-service{
+	width: 100%;
+	min-height: inherit;
+	background-color: white;
+	padding: 40px 40px;
+}
+
+.text-service h3{
+	font-weight: bold;
+	font-size: 34px;
+	color: #3498db;
+}
+
+.text-service hr{
+	
+}
+
+.text-service p{
+	color: #6f6f6f;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.box-services-one{
+	padding-right: 0;
+}
+
+.box-text-one{
+	padding-left: 0;
+}
+
+.box-services-two{
+	padding-left: 0;
+}
+
+.box-text-two{
+	padding-right: 0;
+}
+
+.box-services-three{
+	padding-right: 0;
+}
+
+.box-text-three{
+	padding-left: 0;
+}
+.meet-owner{
+	display: none;
+}
+
+/*** CTA ***/
+
+#cta{
+	background-image: url(..//images/cta.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.bg-cta{
+	background: rgba(74,160,219,0.7);
+	width: 100%;
+	height: inherit;
+	padding: 120px;
+}
+
+.text-cta{
+	text-align: center;
+}
+
+.text-cta h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.text-cta hr{
+	height: 2px;
+	width: 150px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.text-cta p{
+	color: white;
+	font-size: 30px;
+}
+
+.btn-cta{
+	margin-top: 80px;
+}
+
+.btn-cta a{
+	background: white;
+	padding: 15px 45px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	border: 2px solid white;
+	color: #3498db;
+	border-radius: 50px;
+}
+
+.btn-cta a:hover{
+	background: transparent;
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+}
+
+/*** REVIEW ***/
+
+#reviews{
+	padding: 80px 0;
+}
+
+.img-review{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.text-reviews{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.text-reviews h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.text-reviews hr{
+	height: 2px;
+	width: 150px;
+	background-color: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+/*** TESTAMONIAL ***/
+
+
+.review .icon{
+    font-size: 100px;
+    line-height: normal;
+    color: #3498db;
+	margin-left: -20px;
+}
+
+.review .description{
+    font-size: 18px;
+    color: #777;
+    line-height: 26px;
+    margin-top: -40px;
+	padding-bottom: 30px;
+}
+
+.review .review-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474740;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.review .post{
+    display: block;
+    font-size: 16px;
+    color: #3498db;
+}
+
+#review-slider .owl-controls{
+    margin-top: 50px;
+	text-align: left;
+}
+
+#review-slider.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #3498db; 
+}
+
+
+#review-slider.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  background: #6f6f6f;
+  border-radius: 50%; 
+}
+
+/*** FOOTER ***/
+
+footer{
+	background-color: #2c3e50;
+	padding-top: 80px;
+	width: 100%;
+	height: auto;
+}
+
+.text-footer h5{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.text-footer hr{
+	height: 2px;
+	width: 50px;
+	background-color: #3498db;
+	margin-bottom: 30px;
+}
+
+.text-footer img{
+	width: 250px;
+}
+
+.text-footer p{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.text-footer ul a{
+	color: white;
+	text-decoration: none;
+}
+
+.text-footer ul a:hover{
+	color: #3498db;
+	text-decoration: none;
+}
+
+.text-footer ul li{
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+.adress-footer{
+	padding-bottom: 0px !important;
+	padding-bottom: 5px !important;
+}
+
+.services-footer{
+	padding-left: 60px;
+}
+
+.company-footer{
+	padding-left: 40px;
+}
+
+.copy-footer hr{
+	height: 2px;
+	background-color: #3498db;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.text-copy p{
+	color: white;
+}
+
+.text-made p{
+	color: white;
+}
+
+.text-made i{
+	padding: 0 5px;
+}
+
+.text-made{
+	text-align: right;
+}
+
+.text-made a{
+	color: white;
+	text-decoration: none;
+}
+
+.text-made a:hover{
+	color: #3498db;
+	text-decoration: none;
+}
+
+
+/*** RESPONSIVE ***/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.nav-link{
+		font-size: 14px;
+	}
+	.btn-nav a{
+		padding: 15px;
+	}
+	.text-hero h1{
+		line-height: 1;
+	}
+	.text-services h2{
+		line-height: 1;
+	}
+	.text-cta h2{
+		line-height: 1;
+	}
+	.text-reviews h2{
+		line-height: 1;
+	}
+	.box-services{
+		min-height: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.text-hero{
+		padding-top: 35vh;
+	}
+	.btn-nav{
+		margin: 25px 0;
+	}
+	.bg-cta{
+		padding: 100px 50px;
+	}
+	.company-footer{
+		padding-left: 0;
+	}
+	.services-footer{
+		padding-left: 40px;
+	}
+	.informations-footer{
+		padding-left: 40px;
+	}
+	.text-hero h1{
+		line-height: 1;
+	}
+	.text-services h2{
+		line-height: 1;
+	}
+	.text-cta h2{
+		line-height: 1;
+	}
+	.text-reviews h2{
+		line-height: 1;
+	}
+	.box-services{
+		min-height: 100%;
+	}
+	.img-review{
+		width: 100%;
+		height: 350px;
+		background-position: top;
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.text-hero{
+		padding-top: 24vh;
+	}
+	.text-hero h1{
+		line-height: 1;
+	}
+	.text-services h2{
+		line-height: 1;
+	}
+	.text-cta h2{
+		line-height: 1;
+	}
+	.text-reviews h2{
+		line-height: 1;
+	}
+	.btn-nav{
+		margin: 25px 0;
+	}
+	.bg-cta{
+		padding: 100px 15px;
+	}
+	.img-review{
+		width: 100%;
+		height: 300px;
+		background-position: top;
+		margin-top: 40px;
+	}
+	.services-footer{
+		padding-left: 0;
+	}
+	.company-footer{
+		padding-left: 0;
+	}
+	.text-copy{
+		text-align: center;
+	}
+	.text-made{
+		text-align: center;
+	}
+	.box-services-one{
+		padding-right: 15px;
+	}
+	.box-text-one{
+		padding-left: 15px;
+	}
+	.box-text-two{
+		padding-right: 15px;
+	}
+	.box-services-two{
+		padding-left: 15px;
+	}
+	.box-services-three{
+		padding-right: 15px;
+	}
+	.box-text-three{
+		padding-left: 15px;
+	}
+	.meet-owner-box{
+		display: none;
+	}
+	.meet-owner{
+		display: block;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.navbar-brand img{
+		width: 240px;
+	}
+	#hero{
+		min-height: 90vh;
+	}
+	.bg-hero{
+		padding-bottom: 60px;
+	}
+	.text-hero h1{
+	 	font-size: 50px;
+		line-height: 1;
+	}
+	.text-services h2{
+		line-height: 1;
+	}
+	.text-cta h2{
+		line-height: 1;
+	}
+	.text-reviews h2{
+		line-height: 1;
+	}
+	.text-hero h3{
+		font-size: 25px;
+	}
+	.btn-nav{
+		margin: 25px 0;
+	}
+	.text-hero{
+		padding-top: 20vh;
+	}
+	.text-welcome h2{
+		font-size: 35px;
+	}
+	.text-welcome{
+		padding-top: 40px;
+	}
+	#services{
+		padding: 40px 0;
+	}
+	.box-services{
+		min-height: 250px;
+	}
+	.text-services h2{
+		font-size: 35px;
+	}
+	.box-services-one{
+		padding-right: 15px;
+	}
+	.box-text-one{
+		padding-left: 15px;
+	}
+	.box-text-two{
+		padding-right: 15px;
+	}
+	.box-services-two{
+		padding-left: 15px;
+	}
+	.box-services-three{
+		padding-right: 15px;
+	}
+	.box-text-three{
+		padding-left: 15px;
+	}
+	.text-service h3{
+		font-size: 25px;
+	}
+	.text-service{
+		padding: 15px 10px;
+	}
+	.meet-owner-box{
+		display: none;
+	}
+	.meet-owner{
+		display: block;
+	}
+	.bg-cta{
+		padding: 80px 10px;
+	}
+	.text-cta h2{
+		font-size: 35px;
+	}
+	.text-cta p{
+		font-size: 22px;
+	}
+	#reviews{
+		padding: 40px 0;
+	}
+	.img-review{
+		margin-top: 30px;
+		height: 250px;
+	}
+	.text-reviews h2{
+		font-size: 35px;
+	}
+	footer{
+		padding-top: 40px;
+	}
+	.services-footer{
+		padding-left: 0;
+	}
+	.company-footer{
+		padding-left: 0;
+	}
+	.text-copy{
+		text-align: center;
+	}
+	.text-made{
+		text-align: center;
+	}
+	.text-copy p{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 320px) {
+	.navbar-brand img{
+		width: 200px;
+	}
+	.text-hero h1{
+	 	font-size: 45px;
+		line-height: 1;
+	}
+	.text-services h2{
+		line-height: 1;
+	}
+	.text-cta h2{
+		line-height: 1;
+	}
+	.text-reviews h2{
+		line-height: 1;
+	}
+	.bg-hero{
+		padding-bottom: 40px;
+	}
+	.text-hero h3{
+		font-size: 22px;
+	}
+	.btn-nav{
+		margin: 25px 0;
+	}
+	.text-hero{
+		padding-top: 25vh;
+	}
+	.btn-hero a{
+		padding: 15px;
+	}
+	.text-welcome h2{
+		font-size: 35px;
+	}
+	.text-welcome{
+		padding-top: 40px;
+	}
+	#services{
+		padding: 40px 0;
+	}
+	.box-services{
+		min-height: 250px;
+	}
+	.text-services h2{
+		font-size: 35px;
+	}
+	.box-services-one{
+		padding-right: 15px;
+	}
+	.box-text-one{
+		padding-left: 15px;
+	}
+	.box-text-two{
+		padding-right: 15px;
+	}
+	.box-services-two{
+		padding-left: 15px;
+	}
+	.box-services-three{
+		padding-right: 15px;
+	}
+	.box-text-three{
+		padding-left: 15px;
+	}
+	.text-service h3{
+		font-size: 25px;
+	}
+	.text-service{
+		padding: 15px 10px;
+	}
+	.meet-owner-box{
+		display: none;
+	}
+	.meet-owner{
+		display: block;
+	}
+	.bg-cta{
+		padding: 80px 10px;
+	}
+	.text-cta h2{
+		font-size: 35px;
+	}
+	.text-cta p{
+		font-size: 22px;
+	}
+	#reviews{
+		padding: 40px 0;
+	}
+	.img-review{
+		margin-top: 30px;
+		height: 250px;
+	}
+	.text-reviews h2{
+		font-size: 35px;
+	}
+	footer{
+		padding-top: 40px;
+	}
+	.services-footer{
+		padding-left: 0;
+	}
+	.company-footer{
+		padding-left: 0;
+	}
+	.text-copy{
+		text-align: center;
+	}
+	.text-made{
+		text-align: center;
+	}
+	.text-copy p{
+		font-size: 14px;
+	}
+}
+
+
+/*** OUR SERVICES ***/
+
+#hero-serviecs{
+	background-image: url(..//images/hero-services.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.bg-hero-services{
+	background: rgba(74,160,219,0.7);
+	width: 100%;
+	min-height: inherit;
+}
+
+.hero-services-text{
+	text-align: center;
+	padding-top: 18vh;
+	padding-bottom: 8vh;
+}
+
+.hero-services-text h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+.hero-services-text ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding: 0px 5px;
+}
+
+.hero-services-text ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.hero-services-text ul li a:hover{
+	text-decoration: none;
+	color:#373737;
+}
+
+/*** OUR SERVICES ***/
+
+#our-services{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+}
+
+.text-our{
+	background-color: white;
+	padding: 20px;
+}
+
+.img-care{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.text-our h4{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: #3498db;
+}
+
+.text-our p{
+	font-size: 20px;
+	color: #6f6f6f;
+	margin-bottom: 0;
+}
+
+.img-care-marg{
+	padding: 10px;
+}
+
+/*** RESPONSIVE OUR SERVICES ***/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-height: 1366px){
+	.hero-services-text{
+		padding-top: 15vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.hero-services-text{
+		
+	}
+	.img-care{
+		height: 250px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.hero-services-text h2{
+		font-size: 35px;
+	}
+	#our-services{
+		padding: 40px 0;
+	}
+	.img-care{
+		height: 250px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero-services-text h2{
+		font-size: 35px;
+	}
+	#our-services{
+		padding: 40px 0;
+	}
+	.img-care{
+		height: 250px;
+	}
+	.hero-services-text{
+		padding-top: 23vh;
+	}
+}
+
+/*** ABOUT US PAGE ***/
+
+#hero-about{
+	background-image: url(..//images/hero-about.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.bg-hero-about{
+	background: rgba(74,160,219,0.7);
+	width: 100%;
+	min-height: inherit;
+}
+
+.hero-about-text{
+	text-align: center;
+	padding-top: 18vh;
+	padding-bottom: 8vh;
+}
+
+.hero-about-text h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+.hero-about-text ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding: 0px 5px;
+}
+
+.hero-about-text ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.hero-about-text ul li a:hover{
+	text-decoration: none;
+	color:#373737;
+}
+
+/*** ABOUT US PAGE ***/
+
+#about-us{
+	padding: 80px 0;
+	width: 100%;
+	height: auto;
+}
+
+.img-about-us{
+	background-image: url(..//images/about-us.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+}
+
+.img-about-row{
+	display: none;
+	background-image: url(..//images/about-us.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+}
+
+.text-about-us h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-weight: bold;
+}
+
+.text-about-us hr{
+	height: 2px;
+	width: 150px;
+	background-color: #3498db;
+	margin: 20px 0;
+}
+
+.text-about-us p{
+	font-size: 20px;
+	color: #6f6f6f;
+}
+
+/*** WE ARE HERE ***/
+
+#we-are-here{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+}
+
+.text-here{
+	text-align: center;
+}
+
+.text-here h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-weight: bold;
+}
+
+.text-here hr{
+	height: 2px;
+	width: 150px;
+	background-color: #3498db;
+	margin: 20px auto;
+}
+
+.text-here p{
+	font-size: 20px;
+	color: #6f6f6f;
+	padding-bottom: 40px;
+}
+
+.img-here{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+}
+
+.here-text h6{
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+/*** RESPONSIVE ABOUT US ***/
+
+@media (min-width: 992px)  and (max-width: 1199px){
+	
+}
+
+@media (min-height: 1366px){
+	.hero-about-text{
+		padding-top: 15vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.img-about-us{
+		display: none;
+	}
+	.img-about-row{
+		display: block;
+		margin-top: 30px;
+	}
+	.we-are-three{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.img-about-us{
+		display: none;
+	}
+	.img-about-row{
+		display: block;
+		margin-top: 30px;
+	}
+	.img-here{
+		height: 250px;
+	}
+	.we-are-two{
+		margin-top: 20px;
+	}
+	.we-are-three{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.hero-about-text h2{
+		font-size: 35px;
+	}
+	#about-us{
+		padding: 40px 0;
+	}
+	.text-about-us h2{
+		font-size: 30px;
+	}
+	.img-about-us{
+		display: none;
+	}
+	.img-about-row{
+		display: block;
+		margin-top: 20px;
+		height: 250px;
+	}
+	#we-are-here{
+		padding: 40px 0;
+	}
+	.text-here h2{
+		font-size: 30px;
+	}
+	.we-are-two{
+		margin-top: 20px;
+	}
+	.we-are-three{
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero-about-text h2{
+		font-size: 35px;
+	}
+	.hero-about-text{
+		padding-top: 23vh;
+	}
+	#about-us{
+		padding: 40px 0;
+	}
+	.text-about-us h2{
+		font-size: 30px;
+	}
+	.img-about-us{
+		display: none;
+	}
+	.img-about-row{
+		display: block;
+		margin-top: 20px;
+		height: 250px;
+	}
+	#we-are-here{
+		padding: 40px 0;
+	}
+	.text-here h2{
+		font-size: 30px;
+	}
+	.we-are-two{
+		margin-top: 20px;
+	}
+	.we-are-three{
+		margin-top: 20px;
+	}
+}
+
+/*** REVIEWS HERO ***/
+
+#hero-review{
+	background-image: url(..//images/reviews-hero.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.bg-hero-review{
+	background: rgba(74,160,219,0.7);
+	width: 100%;
+	min-height: inherit;
+}
+
+.hero-review-text{
+	text-align: center;
+	padding-top: 18vh;
+	padding-bottom: 8vh;
+}
+
+.hero-review-text h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+.hero-review-text ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding: 0px 5px;
+}
+
+.hero-review-text ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.hero-review-text ul li a:hover{
+	text-decoration: none;
+	color:#373737;
+}
+
+/*** REVIEW PAGE ***/
+
+#review-field{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: auto;
+	padding: 80px 0;
+}
+
+.text-review-box{
+	background-color: white;
+	padding: 20px;
+}
+
+.reviews-box{
+	padding: 10px;
+}
+
+.text-review-box p{
+	font-size: 20px;
+	color: #6f6f6f;
+}
+
+.text-review-box h4{
+	font-weight: 600;
+}
+
+.text-review-box h6{
+	color: #3498db;
+	padding-bottom: 15px;
+}
+
+.text-review-box h5{
+	padding-top: 15px;
+	text-align: right;
+	font-size: 18px;
+}
+
+.text-review-box h5 a i{
+	color: #3498db;
+	font-size: 18px;
+}
+
+.text-review-box h5 a i:hover{
+	color: #373737;
+	font-size: 18px;
+}
+
+/*** RESPONSIVE REVIEWS ***/
+
+@media (min-width: 992px)  and (max-width: 1199px){
+	
+}
+
+@media (min-height: 1366px){
+	.hero-review-text{
+		padding-top: 15vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	.hero-review-text h2{
+		font-size: 35px;
+	}
+	#review-field{
+		padding: 40px 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero-review-text h2{
+		font-size: 35px;
+	}
+	.hero-review-text{
+		padding-top: 23vh;
+	}
+	#review-field{
+		padding: 40px 0;
+	}
+}
+
+/*** CONTACT ***/
+
+#map-contact iframe{
+	width: 100%;
+	height: 400px;
+}
+
+/*** CONTACT INFO ***/
+
+#contact-info{
+	padding: 80px 0;
+}
+
+.contact-text h2{
+	font-family: 'Mallanna', sans-serif;
+	text-transform: uppercase;
+	color: #373737;
+	font-weight: bold;
+}
+
+.hr-contact{
+	height: 2px;
+	width: 150px;
+	background-color: #3498db;
+	margin: 20px 0;
+}
+
+.contact-text p{
+	font-size: 20px;
+	color: #6f6f6f;
+
+}
+
+.text-contact i{
+	font-size: 20px;
+	color: #3498db;
+	padding-right: 10px;
+}
+
+.text-contact{
+	padding-top: 10px;
+}
+
+.text-contact h6{
+	float: left;
+	color: #373737;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.text-contact h6 span{
+	color: #6f6f6f;
+	text-transform: capitalize;
+}
+
+.numb{
+	float: right;
+	text-decoration: none;
+	color: #373737;
+}
+
+.numb:hover{
+	color: #3498db;
+	text-decoration: none;
+}
+
+/*** FORM ***/
+
+.form-box{
+	background-color: #f7f7f7;
+	padding: 20px;
+}
+
+.form-group input{
+	box-shadow: none !important;
+}
+
+.form-control{
+	box-shadow: none !important;
+}
+
+.btnSubmit{
+	background-color: #3498db;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 2px solid #3498db;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-radius: 50px;
+}
+
+.btnSubmit:hover{
+	background-color: white;
+	border: 2px solid #3498db;
+	text-decoration: none;
+	cursor: pointer;
+	color: #3498db;
+}
+#cpatchaTextBox{
+	margin-bottom: 30px;
+}
+
+/*** RESPONSIVE CONTACT ***/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.contact-text{
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.contact-text{
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+	#contact-info{
+		padding: 40px 0;
+	}
+	.contact-text{
+		margin-top: 40px;
+	}
+	.contact-text h2{
+		font-size: 30px;
+	}
+	.text-contact h6{
+		float: none;
+		padding-top: 10px;
+	}
+	.numb{
+		float: none;
+	}
+}
+
+@media (max-width: 320px) {
+	#contact-info{
+		padding: 40px 0;
+	}
+	.contact-text{
+		margin-top: 40px;
+	}
+	.contact-text h2{
+		font-size: 30px;
+	}
+	.text-contact h6{
+		float: none;
+		padding-top: 10px;
+	}
+	.numb{
+		float: none;
+	}
+}
+
+
+/*
+
+font-size: 20px;
+	color: #6f6f6f;
+	padding: 15px 0;
+
+Responsive font for phone: 
+
+h1 - 50px
+h2 - 35px
+
+
+font-family: 'Mallanna', sans-serif; - naslovi
+
+#3498db - svetlo plava
+#373737 - naslovi crna
+#6f6f6f - siva za text
+#f7f7f7 - svetlo siva background;
+
+*/
+

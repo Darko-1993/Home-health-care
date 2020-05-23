@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blessed Home Health Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body onload="createCaptcha()">
+	
+	<!-- navbar -->
+
+	<header class="header">
+		<nav class="navbar navbar-expand-lg fixed-top py-3">
+			<div class="container"><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">LOGO</a>
+				<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+				<div id="navbarSupportedContent" class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Home</a></li>
+						<li class="nav-item"><a href="services.html" class="nav-link text-uppercase font-weight-bold">Services</a></li>
+						<li class="nav-item"><a href="about-us.html" class="nav-link text-uppercase font-weight-bold">About</a></li>
+						<li class="nav-item"><a href="reviews.html" class="nav-link text-uppercase font-weight-bold">Reviews</a></li>
+						<li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold active-link">Contact</a></li>
+					</ul>
+					<div class="btn-nav">
+						<a href="#">+555 111/222</a>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
+	</header>
+	
+	<!-- MAP CONTACT -->
+	
+	<section id="map-contact">
+		<div class="container-fluid">
+			<div class="row">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107865.78325468505!2d-86.3160772803438!3d32.34392463291735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888e8194b0d481f9%3A0x8e1b511d354285ff!2sMontgomery%2C%20AL%2C%20USA!5e0!3m2!1sen!2srs!4v1589193665761!5m2!1sen!2srs" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+	</section>
+	
+	<!-- CONTACT INFO -->
+	
+	<section id="contact-info">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<form class="form-box">
+					  <div class="form-row">
+						  
+						<div class="form-group col-md-6">
+						  <input type="text" class="form-control firstName" placeholder="First Name">
+						</div>
+						  
+						<div class="form-group col-md-6">
+						  <input type="text" class="form-control lastName" placeholder="Last Name">
+						</div>
+						  
+						<div class="form-group col-md-12">
+							  <input type="email" class="form-control email" placeholder="Email">
+						</div>
+						  
+						  <div class="form-group col-md-12">
+							  <input type="text" class="form-control number" placeholder="Phone">
+						</div>
+						  
+						  <div class="form-group col-md-12">
+								<textarea name="message" placeholder="Message" class="form-control message" style="min-height: 100px;"></textarea>
+						</div>
+					  </div>
+						
+						<div onsubmit="validateCaptcha()">
+							<div id="captcha"></div>
+							<input type="text" placeholder="Captcha" id="cpatchaTextBox" class="form-control col-md-4"/>
+							<button type="submit" class="btnSubmit">SUBMIT</button>
+						 </div>
+						
+					</form>
+				</div>
+				
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="contact-text">
+						<h2>Contact info</h2>
+						<hr class="hr-contact">
+						<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus. Suspendisse in orci enim proin gravida nibh vel velit auctor aliquet.</p>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="text-contact">
+								<h6><i class="fa fa-map-marker"></i> 34th Road Trip, New York </h6>
+							</div>
+						</div>	
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="text-contact">
+								<h6>Phone contact <span>(Free call 24/7)</span></h6><a href="" class="numb">+054/544-633</a>
+							</div>
+						</div>	
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="text-contact">
+								<h6>Home visit <span>(Chargeable Call 24/7)</span></h6><a href="" class="numb">+054/544-633</a>
+							</div>
+						</div>	
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="text-contact">
+								<h6>Fax Contact <span>(Free call 24/7)</span></h6><a href="" class="numb">+054/544-633</a>
+							</div>
+						</div>	
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="text-contact">
+								<h6>Email</h6><a href="" class="numb">office@homecare.com</a>
+							</div>
+						</div>	
+					</div>
+					
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+	
+	<!-- FOOTER -->
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="text-footer">
+						<h5>Hours of Operation</h5>
+						<hr>
+						<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>						
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="text-footer services-footer">
+						<h5>Services</h5>
+						<hr>
+						<ul>
+							<li><a href="">Hourly care</a></li>
+							<li><a href="">Daily care</a></li>
+							<li><a href="">Hospital to home</a></li>
+							<li><a href="">Respite care</a></li>
+							<li><a href="">Specialized care</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="text-footer company-footer">
+						<h5>Company</h5>
+						<hr>
+						<ul>
+							<li class="text-uppercase"><a href="">Home</a></li>
+							<li class="text-uppercase"><a href="">Services</a></li>
+							<li class="text-uppercase"><a href="">About</a></li>
+							<li class="text-uppercase"><a href="">Reviews</a></li>
+							<li class="text-uppercase"><a href="">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="text-footer informations-footer">
+						<h5>Informations</h5>
+						<hr>
+						<p class="adress-footer">Here is the address</p>
+						<p class="adress-footer">There will be a town here</p>
+						<ul>
+							<li><a href="">054/544-633</a></li>
+							<li><a href="">support@homecare.com</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="copy-footer">
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="text-copy">
+									<p>Copyright © 2020 | BLESSED HOME HEALTH CARE | All rights reserved.</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="text-made">
+									<p>Made with <i class="fa fa-heartbeat"></i></p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	
+	<!-- jQuery -->
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="vendor/wow/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jscript.js"></script>
+
+
+
+</body>
+</html>
